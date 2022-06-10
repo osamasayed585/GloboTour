@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/drawable/ic_favorite_bordered.xml" value="0.264" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/drawable/ic_favorite_filled.xml" value="0.264" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/drawable/ic_home.xml" value="0.2825" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_city_list.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/layout/fragment_favorite.xml" value="0.25" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/layout/list_item_city.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/layout/list_item_favorite.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/layout/nav_header.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/Osama/AndroidStudioProjects/GloboTour/app/src/main/res/menu/activity_main_drawer_items.xml" value="0.35104166666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
