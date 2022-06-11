@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var toolbar: Toolbar
     private lateinit var navController: NavController
-    private lateinit var navigationView: NavigationView
-    private lateinit var drawerLayout: DrawerLayout
+    private lateinit var bottomNav: BottomNavigationView
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,25 +25,20 @@ class MainActivity : AppCompatActivity() {
 
         // Initialize Views
         toolbar = findViewById(R.id.activity_main_toolbar)
-        navigationView = findViewById(R.id.nav_vew)
-        drawerLayout = findViewById(R.id.drawer_layout)
+        bottomNav = findViewById(R.id.bottomNav_vew)
+
 
         // Get NavHostFragment and NavController
         val navHostFrag =
             supportFragmentManager.findFragmentById(R.id.nav_host_frag) as NavHostFragment
         navController = navHostFrag.navController
 
-        val appBarConfiguration = AppBarConfiguration(navController.graph, drawerLayout)
+        val topLevelDestination  = setOf(R.id.fragmentCityList, R.id.fragmentFavoriteList)
+        val appBarConfiguration = AppBarConfiguration(topLevelDestination)
 
         toolbar.setupWithNavController(navController, appBarConfiguration)
 
-        navigationView.setupWithNavController(navController)
+        bottomNav.setupWithNavController(navController)
     }
 
-    override fun onBackPressed() {
-        if (drawerLayout.isOpen)
-            drawerLayout.close()
-        else
-            super.onBackPressed()
-    }
 }

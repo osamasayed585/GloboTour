@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.sriyank.globotour.R
 import com.sriyank.globotour.city.City
 
-class FavoriteAdapter(val context: Context, var favoriteList: MutableList<City>) :
+class FavoriteAdapter(val context: Context, var favoriteList: ArrayList<City>) :
     RecyclerView.Adapter<FavoriteAdapter.FavoriteViewHolder>() {
 
     inner class FavoriteViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
